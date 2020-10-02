@@ -10,4 +10,21 @@ in those projects. These will define me the base common features so that I don't
 
 ## Installation
 
-In the root build.
+In the root build.gradle:
+
+```groovy
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Then the implementation statement in module build.gradle:
+
+```groovy
+
+	dependencies {
+	        implementation 'com.github.Oclemy:Tungusta:1.0.0'
+	}
+```
