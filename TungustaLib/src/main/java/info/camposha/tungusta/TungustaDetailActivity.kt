@@ -1,13 +1,12 @@
-package info.camposha.albireo
+package info.camposha.tungusta
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import info.camposha.tungusta.R
 import info.camposha.tungusta.databinding.Detail2Binding
 
-open class Detail2Activity : AppCompatActivity() {
+open class TungustaDetailActivity : AppCompatActivity() {
     protected var b: Detail2Binding?=null
 
 

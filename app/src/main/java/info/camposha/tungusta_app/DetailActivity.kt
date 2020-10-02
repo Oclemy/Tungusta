@@ -2,12 +2,10 @@ package info.camposha.tungusta_app
 
 import android.content.Intent
 import android.os.Bundle
-import info.camposha.albireo.Detail2Activity
-import info.camposha.tungusta.R
-import java.util.*
+import info.camposha.tungusta.TungustaDetailActivity
 
 
-class DetailActivity : Detail2Activity() {
+class DetailActivity : TungustaDetailActivity() {
 
     private var p: Planet?=null
 
